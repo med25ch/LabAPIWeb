@@ -1,0 +1,58 @@
+# --- IntelliJ IDEA / JetBrains ---
+.idea/
+*.iml
+*.iws
+*.ipr
+# If you prefer to keep run configs/code styles, you can allowlist:
+# !.idea/codeStyles/
+# !.idea/runConfigurations/
+
+# IntelliJ HTTP Client scratch files
+.idea/httpRequests/
+
+# --- Java / Build outputs ---
+target/
+build/
+out/
+*.class
+*.log
+
+# --- Maven ---
+.mvn/wrapper/maven-wrapper.jar
+!**/src/**/maven-wrapper.properties
+
+# --- Gradle ---
+.gradle/
+gradle-app.setting
+gradle/      # if auto-generated wrapper dir
+**/build/
+
+# --- Logs / Temp ---
+*.tmp
+*.swp
+*.swo
+hs_err_pid*
+replay_pid*
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+
+# --- Coverage / Reports (if you use them) ---
+.coverage/
+.nyc_output/
+coverage/
+jacoco.exec
+*.ec
+*.em
+*.lcov
+*.html
+
+# --- Docker / Compose (if present) ---
+**/.docker/
+**/docker-compose.override.yml
+
+# --- Misc you mentioned ---
+# Some tools generate .xml/.ist artifacts; if they are build outputs, ignore them:
+*.ist
+# (Keep XML files that are part of your source; if they’re IDE metadata, they’re in .idea/ already)
